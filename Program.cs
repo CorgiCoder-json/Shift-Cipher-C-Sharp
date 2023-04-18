@@ -4,7 +4,7 @@ namespace Shift_Cipher
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string shiftedAlphabet = "", finalStr = "", alphabet = "abcdefghijklmnopqrstuvwxyz";
             Console.Write("Enter a string to be shifted: ");
